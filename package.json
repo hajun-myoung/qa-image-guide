@@ -1,7 +1,7 @@
 {
   "name": "qa-image-guide",
   "description": "A documentation for guide qa-image",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
