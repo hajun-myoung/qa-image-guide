@@ -4,7 +4,16 @@ import { defineUserConfig } from "vuepress";
 
 export default defineUserConfig({
   bundler: viteBundler(),
-  theme: defaultTheme(),
+  theme: defaultTheme({
+    sidebar: [
+      {
+        text: "일반 사용자용",
+        prefix: "/general/",
+        link: "/general/",
+        children: ["basic.md", "configure.md"],
+      },
+    ],
+  }),
 
   lang: "ko-KR",
   title: "QA Image 가이드",
