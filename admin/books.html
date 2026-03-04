@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>교재 관리법 | QA Image 가이드</title><meta name="description" content="QA Image 사이트 사용을 위한 가이드 문서입니다">
+    <link rel="preload" href="/assets/style-B3-VMakp.css" as="style"><link rel="stylesheet" href="/assets/style-B3-VMakp.css">
+    <link rel="modulepreload" href="/assets/app-BN7Jr89l.js"><link rel="modulepreload" href="/assets/books.html-BBQNyV6a.js">
+    <link rel="prefetch" href="/assets/index.html-BNHODhb6.js" as="script"><link rel="prefetch" href="/assets/index.html-KB2OPrZB.js" as="script"><link rel="prefetch" href="/assets/user.html-DQtLiIwM.js" as="script"><link rel="prefetch" href="/assets/index.html-ldDFHo7U.js" as="script"><link rel="prefetch" href="/assets/basic.html-D38rTqOI.js" as="script"><link rel="prefetch" href="/assets/configure.html-CoX4yW6m.js" as="script"><link rel="prefetch" href="/assets/404.html-SH3XFLkX.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><!----><span class="vp-site-name" aria-hidden="true">QA Image 가이드</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/general/" aria-label="일반 사용자용"><!--[--><!--[--><!--]--><!--]-->일반 사용자용<!--[--><!--[--><!--]--><!--]--></a><ul class="vp-sidebar-children" style=""><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/general/basic.html" aria-label="기본 사용법"><!--[--><!--[--><!--]--><!--]-->기본 사용법<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/general/configure.html" aria-label="설정 사용법"><!--[--><!--[--><!--]--><!--]-->설정 사용법<!--[--><!--[--><!--]--><!--]--></a><!----></li><!--]--></ul></li><li><a class="route-link route-link-active auto-link vp-sidebar-item vp-sidebar-heading active" href="/admin/" aria-label="관리자용"><!--[--><!--[--><!--]--><!--]-->관리자용<!--[--><!--[--><!--]--><!--]--></a><ul class="vp-sidebar-children" style=""><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/admin/user.html" aria-label="사용자 관리법"><!--[--><!--[--><!--]--><!--]-->사용자 관리법<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link route-link-active auto-link vp-sidebar-item active" href="/admin/books.html" aria-label="교재 관리법"><!--[--><!--[--><!--]--><!--]-->교재 관리법<!--[--><!--[--><!--]--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div><h1 id="교재-관리법" tabindex="-1"><a class="header-anchor" href="#교재-관리법"><span>교재 관리법</span></a></h1><div class="hint-container tip"><p class="hint-container-title">팁</p><p>본 메뉴에 접근 가능한 사용자는 <code>직원</code>급 이상입니다</p></div><h2 id="교재-파일관리-및-사이드바-관리" tabindex="-1"><a class="header-anchor" href="#교재-파일관리-및-사이드바-관리"><span>교재 파일관리 및 사이드바 관리</span></a></h2><p>현재, 교재 파일관리 기능은 &quot;사이드바 관리&quot;와 그 기능이 통합되었습니다</p><p>일반적인 교재 생성의 순서는 다음과 같이 진행됩니다:</p><ol><li><p>사이드바에 해당 교재의 아이템을 만들어주세요</p></li><li><p>이후, 만들어진 사이트바 아이템에 필요한 책을 업로드해주세요</p></li></ol><h2 id="교재-추가하기" tabindex="-1"><a class="header-anchor" href="#교재-추가하기"><span>교재 추가하기</span></a></h2><p><img src="/images/configureSidebar.png" alt="configureSidebar"></p><p>이 중, 교재 추가하기에 집중하여 관찰하면,</p><p>대분류, 카테고리 입력 칸의 하단에 <code>PDF 업로드</code> 버튼이 준비되었습니다</p><p>이를 통해, 새로운 교재 파일을 업로드할 수 있습니다</p><h2 id="사이드바-수정하기" tabindex="-1"><a class="header-anchor" href="#사이드바-수정하기"><span>사이드바 수정하기</span></a></h2><p>사이드바 수정은 크게 세 가지가 가능합니다</p><ol><li><p>위에서 이미 설명된 <a href="#%EA%B5%90%EC%9E%AC-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0">교재 추가하기</a></p></li><li><p>사이드바 수정하기</p><p>이 기능(사이드바 수정)의 경우, 미리 구성된 사이드바의 교재 순서, 이름, 카테고리 및 태그 분류를 바꿀 수 있습니다</p></li><li><p>인덱스 편집하기</p><p>교재 내의 인덱스는 수동으로 입력하셔야 합니다 왼쪽 메뉴에서 &quot;인덱스 편집하기&quot;를 눌러주셔야 하며,</p><p>인덱스의 쪽수가 해당 교재 전체 페이지 수보다 작거나 낙타야 합니다</p></li></ol></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">최근 수정:: </span><time class="meta-item-info" datetime="2026-03-04T03:39:22.000Z" data-allow-mismatch>26. 3. 4. 오전 3:39</time></div><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: audgkwns44@gmail.com">Denver</span><!----><!--]--><!--]--></span></div></div></footer><nav class="vp-page-nav" aria-label="page navigation"><a class="route-link auto-link prev" href="/admin/user.html" aria-label="사용자 관리법"><!--[--><div class="hint"><span class="arrow left"></span> Prev</div><div class="link"><span class="external-link">사용자 관리법</span></div><!--]--></a><!----></nav><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-BN7Jr89l.js" defer></script>
+  </body>
+</html>
