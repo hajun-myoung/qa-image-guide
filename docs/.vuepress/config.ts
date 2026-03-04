@@ -12,6 +12,12 @@ export default defineUserConfig({
         link: "/general/",
         children: ["basic.md", "configure.md"],
       },
+      {
+        text: "관리자용",
+        prefix: "/admin/",
+        link: "/admin/",
+        children: ["user.md", "books.md"],
+      },
     ],
   }),
 
